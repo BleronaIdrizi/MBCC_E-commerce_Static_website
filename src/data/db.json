@@ -1,0 +1,808 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "The Great Gatsby",
+      "image": "product-The-Great-Gatsby.jpg",
+      "category": "fiction-books",
+      "price": 1500,
+      "popularity": 5,
+      "stock": 10,
+      "shortDescription": "A classic novel by F. Scott Fitzgerald.",
+      "productDetails": "Published in 1925, The Great Gatsby explores themes of decadence, idealism, resistance to change, social upheaval, and excess.",
+      "deliveryDetails": "Standard shipping available. Express shipping for additional cost.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "2",
+      "title": "Sapiens: A Brief History of Humankind",
+      "image": "product-Sapiens.jpeg",
+      "category": "non-fiction-books",
+      "price": 2000,
+      "popularity": 4,
+      "stock": 20,
+      "shortDescription": "A groundbreaking narrative of humanity’s creation and evolution.",
+      "productDetails": "From the Stone Age to the Silicon Age, Yuval Noah Harari’s Sapiens shows us who we are and where we came from.",
+      "deliveryDetails": "Available with standard and expedited shipping options.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "3",
+      "title": "The Very Hungry Caterpillar",
+      "image": "product-The-Very-Hungry-Caterpillar.jpeg",
+      "category": "children-books",
+      "price": 500,
+      "popularity": 5,
+      "stock": 15,
+      "shortDescription": "A classic children's book by Eric Carle.",
+      "productDetails": "A beloved story of a caterpillar's transformation into a butterfly, full of colorful illustrations.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "4",
+      "title": "Calculus: Early Transcendentals",
+      "image": "product-Calculus-Early-Transcendentals.jpeg",
+      "category": "academic-educational-books",
+      "price": 2500,
+      "popularity": 4,
+      "stock": 5,
+      "shortDescription": "A comprehensive calculus textbook.",
+      "productDetails": "This textbook provides a thorough overview of differential and integral calculus for undergraduate students.",
+      "deliveryDetails": "Free delivery for orders above $50.",
+      "deliveryDays": 2
+    },
+    {
+      "id": "5",
+      "title": "Becoming",
+      "image": "product-becoming.jpeg",
+      "category": "non-fiction-books",
+      "price": 1800,
+      "popularity": 5,
+      "stock": 0,
+      "shortDescription": "Michelle Obama's memoir.",
+      "productDetails": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States.",
+      "deliveryDetails": "Delivery within 3-7 business days.",
+      "deliveryDays": 7
+    },
+    {
+      "id": "6",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "image": "product-harry-potter-1.jpeg",
+      "category": "fiction-books",
+      "price": 3000,
+      "popularity": 5,
+      "stock": 8,
+      "shortDescription": "The first book in the Harry Potter series.",
+      "productDetails": "Follow Harry Potter as he embarks on his journey to discover the magical world of Hogwarts.",
+      "deliveryDetails": "Available with express delivery options.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "7",
+      "title": "The Catcher in the Rye",
+      "image": "product-The-Catcher.jpeg",
+      "category": "fiction-books",
+      "price": 1200,
+      "popularity": 4,
+      "stock": 20,
+      "shortDescription": "A coming-of-age novel by J.D. Salinger.",
+      "productDetails": "A story about a teenager named Holden Caulfield, who struggles with growing up in a world full of 'phonies'.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "8",
+      "title": "1984 by George Orwell",
+      "image": "product-1984.jpeg",
+      "category": "fiction-books",
+      "price": 1300,
+      "popularity": 5,
+      "stock": 10,
+      "shortDescription": "A dystopian novel by George Orwell.",
+      "productDetails": "1984 is a cautionary tale about the dangers of totalitarianism, mass surveillance, and government control.",
+      "deliveryDetails": "Available with both standard and expedited shipping.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "9",
+      "title": "A Brief History of Time",
+      "image": "product-history.jpeg",
+      "category": "non-fiction-books",
+      "price": 2000,
+      "popularity": 5,
+      "stock": 8,
+      "shortDescription": "Stephen Hawking's famous work on cosmology.",
+      "productDetails": "A Brief History of Time explains complex concepts like black holes and quantum mechanics in a way that's accessible to all readers.",
+      "deliveryDetails": "Delivery within 5-7 business days.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "10",
+      "title": "Introduction to Psychology",
+      "image": "product-psychology.jpeg",
+      "category": "academic-educational-books",
+      "price": 2500,
+      "popularity": 3,
+      "stock": 20,
+      "shortDescription": "A comprehensive introduction to psychology.",
+      "productDetails": "This textbook covers major topics in psychology, including cognitive, behavioral, and developmental psychology.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "11",
+      "title": "Goodnight Moon",
+      "image": "product-gm.jpeg",
+      "category": "children-books",
+      "price": 800,
+      "popularity": 5,
+      "stock": 30,
+      "shortDescription": "A beloved children's bedtime story.",
+      "productDetails": "Goodnight Moon is a gentle and soothing book perfect for bedtime reading with younger children.",
+      "deliveryDetails": "Delivery available in 2-4 business days.",
+      "deliveryDays": 2
+    },
+    {
+      "id": "12",
+      "title": "Where the Wild Things Are",
+      "image": "product-wtwta.jpeg",
+      "category": "children-books",
+      "price": 700,
+      "popularity": 5,
+      "stock": 15,
+      "shortDescription": "A children's book by Maurice Sendak.",
+      "productDetails": "Max, a young boy, imagines himself traveling to an island inhabited by Wild Things in this timeless classic.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "13",
+      "title": "The Lord of the Rings",
+      "image": "product-tlotr.jpeg",
+      "category": "fiction-books",
+      "price": 3500,
+      "popularity": 5,
+      "stock": 6,
+      "shortDescription": "An epic fantasy novel by J.R.R. Tolkien.",
+      "productDetails": "Follow Frodo Baggins and the Fellowship as they set out to destroy the One Ring and defeat the Dark Lord Sauron.",
+      "deliveryDetails": "Delivery available within 4-7 business days.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "14",
+      "title": "Charlotte's Web",
+      "image": "product-cw.jpeg",
+      "category": "children-books",
+      "price": 900,
+      "popularity": 5,
+      "stock": 20,
+      "shortDescription": "A heartwarming tale of friendship by E.B. White.",
+      "productDetails": "Charlotte's Web tells the story of a pig named Wilbur and his friendship with a spider named Charlotte.",
+      "deliveryDetails": "Available with standard and expedited shipping options.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "15",
+      "title": "Pride and Prejudice",
+      "image": "product-pp.jpeg",
+      "category": "fiction-books",
+      "price": 1400,
+      "popularity": 5,
+      "stock": 12,
+      "shortDescription": "A classic novel by Jane Austen.",
+      "productDetails": "Pride and Prejudice explores the themes of love, marriage, and societal expectations in 19th century England.",
+      "deliveryDetails": "Free delivery for orders above $50.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "16",
+      "title": "To Kill a Mockingbird",
+      "image": "product-tkam.png",
+      "category": "fiction-books",
+      "price": 1800,
+      "popularity": 5,
+      "stock": 18,
+      "shortDescription": "A classic novel by Harper Lee.",
+      "productDetails": "To Kill a Mockingbird addresses serious issues such as racial inequality and injustice in the American South.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "17",
+      "title": "Brave New World",
+      "image": "product-bnw.jpeg",
+      "category": "fiction-books",
+      "price": 1600,
+      "popularity": 5,
+      "stock": 14,
+      "shortDescription": "A dystopian novel by Aldous Huxley.",
+      "productDetails": "Brave New World presents a nightmarish vision of a future where technology controls society.",
+      "deliveryDetails": "Delivery available in 4-6 business days.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "18",
+      "title": "Advanced Physics for Engineers",
+      "image": "product-aep.jpeg",
+      "category": "academic-educational-books",
+      "price": 3000,
+      "popularity": 4,
+      "stock": 10,
+      "shortDescription": "A comprehensive guide to advanced physics for engineering students.",
+      "productDetails": "This book covers complex topics in physics, essential for students and professionals in engineering.",
+      "deliveryDetails": "Delivery within 5-7 business days.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "19",
+      "title": "The Power of Habit",
+      "image": "product-tpoh.jpeg",
+      "category": "non-fiction-books",
+      "price": 1500,
+      "popularity": 5,
+      "stock": 30,
+      "shortDescription": "A book by Charles Duhigg on the science of habit formation.",
+      "productDetails": "The Power of Habit explains how habits work and how they can be changed to achieve personal and professional success.",
+      "deliveryDetails": "Available with standard shipping options.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "20",
+      "title": "The Alchemist",
+      "image": "product-ta.jpeg",
+      "category": "fiction-books",
+      "price": 1200,
+      "popularity": 5,
+      "stock": 50,
+      "shortDescription": "A novel by Paulo Coelho about following one's dreams.",
+      "productDetails": "The Alchemist tells the mystical story of Santiago, an Andalusian shepherd boy who yearns to travel in search of a worldly treasure.",
+      "deliveryDetails": "Express shipping available.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "21",
+      "title": "Atomic Habits",
+      "image": "product-ah.jpeg",
+      "category": "non-fiction-books",
+      "price": 1700,
+      "popularity": 4,
+      "stock": 25,
+      "shortDescription": "A book by James Clear on building good habits.",
+      "productDetails": "Atomic Habits offers practical strategies for forming good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results.",
+      "deliveryDetails": "Available with expedited shipping options.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "22",
+      "title": "The Hobbit",
+      "image": "product-th.jpeg",
+      "category": "fiction-books",
+      "price": 1400,
+      "popularity": 5,
+      "stock": 35,
+      "shortDescription": "J.R.R. Tolkien's prelude to The Lord of the Rings.",
+      "productDetails": "The Hobbit follows the journey of Bilbo Baggins as he embarks on an unexpected adventure with a group of dwarves to reclaim their lost kingdom.",
+      "deliveryDetails": "Delivery within 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "23",
+      "title": "Educated",
+      "image": "product-e.jpeg",
+      "category": "non-fiction-books",
+      "price": 2000,
+      "popularity": 4,
+      "stock": 18,
+      "shortDescription": "A memoir by Tara Westover.",
+      "productDetails": "Educated is a memoir about growing up in a strict and abusive household in rural Idaho but eventually escaping through education.",
+      "deliveryDetails": "Standard delivery available.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "24",
+      "title": "Thinking, Fast and Slow",
+      "image": "product-tfts.jpeg",
+      "category": "non-fiction-books",
+      "price": 2200,
+      "popularity": 5,
+      "stock": 10,
+      "shortDescription": "A book by Daniel Kahneman on cognitive biases.",
+      "productDetails": "Thinking, Fast and Slow delves into the two systems of thinking that drive our decisions, exploring how and why we think the way we do.",
+      "deliveryDetails": "Free delivery for orders above $50.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "25",
+      "title": "The Chronicles of Narnia",
+      "image": "product-tcon.jpeg",
+      "category": "fiction-books",
+      "price": 1800,
+      "popularity": 5,
+      "stock": 20,
+      "shortDescription": "A classic fantasy series by C.S. Lewis.",
+      "productDetails": "The Chronicles of Narnia tells the adventures of children in the fictional realm of Narnia, where animals talk and magic is commonplace.",
+      "deliveryDetails": "Standard and expedited shipping available.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "26",
+      "title": "Rich Dad Poor Dad",
+      "image": "product-rdpd.jpeg",
+      "category": "non-fiction-books",
+      "price": 1300,
+      "popularity": 4,
+      "stock": 40,
+      "shortDescription": "A personal finance book by Robert Kiyosaki.",
+      "productDetails": "Rich Dad Poor Dad teaches the financial principles that the author learned from his two 'dads'—one rich, one poor.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "27",
+      "title": "Dune",
+      "image": "product-d.jpeg",
+      "category": "fiction-books",
+      "price": 2000,
+      "popularity": 5,
+      "stock": 10,
+      "shortDescription": "A science fiction novel by Frank Herbert.",
+      "productDetails": "Dune is a futuristic story about politics, religion, and ecology on the desert planet of Arrakis.",
+      "deliveryDetails": "Delivery within 5-7 business days.",
+      "deliveryDays": 5
+    },
+    {
+      "id": "28",
+      "title": "The Art of War",
+      "image": "product-taod.jpeg",
+      "category": "non-fiction-books",
+      "price": 900,
+      "popularity": 5,
+      "stock": 50,
+      "shortDescription": "An ancient Chinese military treatise by Sun Tzu.",
+      "productDetails": "The Art of War is a timeless text on military strategy and tactics, widely read by both military professionals and business leaders.",
+      "deliveryDetails": "Delivery available in 3-5 business days.",
+      "deliveryDays": 3
+    },
+    {
+      "id": "29",
+      "title": "Animal Farm",
+      "image": "product-af.jpeg",
+      "category": "fiction-books",
+      "price": 800,
+      "popularity": 5,
+      "stock": 15,
+      "shortDescription": "A satirical novella by George Orwell.",
+      "productDetails": "Animal Farm allegorically depicts the rise of totalitarianism in the Soviet Union under Joseph Stalin.",
+      "deliveryDetails": "Delivery within 4-6 business days.",
+      "deliveryDays": 4
+    },
+    {
+      "id": "30",
+      "title": "Cosmos",
+      "image": "product-c.jpeg",
+      "category": "non-fiction-books",
+      "price": 2500,
+      "popularity": 5,
+      "stock": 10,
+      "shortDescription": "A popular science book by Carl Sagan.",
+      "productDetails": "Cosmos explores the universe, the development of life, and the evolution of scientific understanding.",
+      "deliveryDetails": "Delivery available in 4-7 business days.",
+      "deliveryDays": 4
+    }
+  ],
+  "orders": [
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "BC",
+        "address": "B2",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "12313212",
+        "nameOnCard": "123123",
+        "expirationDate": "123123",
+        "cvc": "12312"
+      },
+      "products": [
+        {
+          "id": "2xsblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 3,
+          "size": "xs",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "id": "1"
+    },
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "asd",
+        "address": "asd",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "123",
+        "postalCode": "123",
+        "phone": "123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 3,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T06:54:38.482Z",
+      "id": "2"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Kuzma",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "fiction-books",
+          "price": 3500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        },
+        {
+          "id": "4xlblack",
+          "image": "product image 4.jpg",
+          "title": "Special Brown Dress",
+          "category": "academic-educational-books",
+          "price": 2500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 2,
+          "stock": 15
+        }
+      ],
+      "subtotal": 6000,
+      "user": {
+        "email": "aleksandarkuzmanovic021@gmail.com",
+        "id": 1
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:01:32.959Z",
+      "id": "3"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Kuzma",
+        "company": "123",
+        "address": "123",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "fiction-books",
+          "price": 3500,
+          "quantity": 2,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 7000,
+      "user": {
+        "email": "aleksandarkuzmanovic021@gmail.com",
+        "id": 1
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:07:37.188Z",
+      "id": "4"
+    },
+    {
+      "data": {
+        "emailAddress": "bc22@gmail.com",
+        "firstName": "Bojan",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "6xlblack",
+          "image": "product image 6.jpg",
+          "title": "Super Luxury Dress",
+          "category": "non-fiction-books",
+          "price": 8500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 20,
+          "stock": 20
+        },
+        {
+          "id": "5xlblack",
+          "image": "product image 5.jpg",
+          "title": "Special Luxury Dress",
+          "category": "academic-educational-books",
+          "price": 5200,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 1,
+          "stock": 0
+        },
+        {
+          "id": "4xlblack",
+          "image": "product image 4.jpg",
+          "title": "Special Brown Dress",
+          "category": "academic-educational-books",
+          "price": 2500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 2,
+          "stock": 15
+        },
+        {
+          "id": "3xlblack",
+          "image": "product image 3.jpg",
+          "title": "Luxury Blue Dress",
+          "category": "children-books",
+          "price": 5000,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 3,
+          "stock": 5
+        },
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        },
+        {
+          "id": "1xlblack",
+          "image": "product image 1.jpg",
+          "title": "Luxury Dress",
+          "category": "fiction-books",
+          "price": 3500,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10
+        }
+      ],
+      "subtotal": 25750,
+      "user": {
+        "email": "bc22@gmail.com",
+        "id": 2
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:12:42.805Z",
+      "id": "5"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "Belgrade",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "321",
+        "expirationDate": "123",
+        "cvc": "321"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 1050,
+      "orderStatus": "Processing",
+      "orderDate": "8/31/2024",
+      "id": "6"
+    },
+    {
+      "data": {
+        "emailAddress": "a@gmail.com",
+        "firstName": "Aca",
+        "lastName": "Cesnak",
+        "company": "Bojan Cesnak",
+        "address": "Marka Markovic 22",
+        "apartment": "123",
+        "city": "asd",
+        "country": "United States",
+        "region": "Serbia",
+        "postalCode": "11080",
+        "phone": "06123123132",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "321",
+        "expirationDate": "123",
+        "cvc": "321"
+      },
+      "products": [
+        {
+          "id": "2xlblack",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 1,
+          "size": "xl",
+          "color": "black",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 1050,
+      "user": {
+        "email": "a@gmail.com",
+        "id": 3
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T07:47:13.076Z",
+      "id": "7"
+    },
+    {
+      "data": {
+        "emailAddress": "lebronjames@gmail.com",
+        "firstName": "Lebron",
+        "lastName": "James",
+        "company": "NBA",
+        "address": "NBA Street",
+        "apartment": "212",
+        "city": "Cleveland",
+        "country": "United States",
+        "region": "USA",
+        "postalCode": "1123012",
+        "phone": "123123",
+        "paymentType": "on",
+        "cardNumber": "123",
+        "nameOnCard": "123",
+        "expirationDate": "123",
+        "cvc": "123"
+      },
+      "products": [
+        {
+          "id": "2smblue",
+          "image": "product image 2.jpg",
+          "title": "Luxury Black Clothing",
+          "category": "non-fiction-books",
+          "price": 1050,
+          "quantity": 3,
+          "size": "sm",
+          "color": "blue",
+          "popularity": 4,
+          "stock": 20
+        }
+      ],
+      "subtotal": 3150,
+      "user": {
+        "email": "lebronjames@gmail.com",
+        "id": 4
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-08-31T09:54:07.549Z",
+      "id": "8"
+    }
+  ],
+  "users": [
+    {
+      "id": "d610",
+      "name": "Blerona",
+      "lastname": "Idrizi",
+      "email": "blerona@solution25.com",
+      "password": "12345678",
+      "confirmPassword": "12345678"
+    }
+  ]
+}
