@@ -19,7 +19,17 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Build And Deploy
+          
+      # Step to install dependencies
+      - name: Install Dependencies
+        run: npm install
+        
+      # Step to build the app
+      - name: Build App
+        run: npm run build
+
+      # Step to deploy to Azure Static Web Apps
+      - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -27,7 +37,6 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
