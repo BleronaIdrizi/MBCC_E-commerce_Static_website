@@ -245,9 +245,8 @@ const Checkout = () => {
                       className="block w-full py-2 indent-2 border-gray-300 outline-none focus:border-gray-400 border border shadow-sm sm:text-sm"
                       required={true}
                     >
-                      <option>United States</option>
-                      <option>Canada</option>
-                      <option>Mexico</option>
+                      <option>Kosovo</option>
+                      <option>Albania</option>
                     </select>
                   </div>
                 </div>
