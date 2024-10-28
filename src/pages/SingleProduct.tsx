@@ -1,32 +1,30 @@
+import { format } from "date-fns";
+import React, { useEffect, useState } from "react";
+import toast from "react-hot-toast";
+import { useParams } from "react-router-dom";
 import {
   Button,
   Dropdown,
   ProductItem,
-  QuantityInput,
-  StandardSelectInput,
+  QuantityInput
 } from "../components";
-import { useParams } from "react-router-dom";
-import React, { useEffect, useState } from "react";
 import { addProductToTheCart } from "../features/cart/cartSlice";
 import { useAppDispatch } from "../hooks";
-import WithSelectInputWrapper from "../utils/withSelectInputWrapper";
-import WithNumberInputWrapper from "../utils/withNumberInputWrapper";
 import { formatCategoryName } from "../utils/formatCategoryName";
-import toast from "react-hot-toast";
-import { format } from "date-fns";
+import WithNumberInputWrapper from "../utils/withNumberInputWrapper";
 
 const SingleProduct = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [singleProduct, setSingleProduct] = useState<Product | null>(null);
   // defining default values for input fields
-  const [size, setSize] = useState<string>("xs");
-  const [color, setColor] = useState<string>("black");
+  const [size ] = useState<string>("xs");
+  const [color ] = useState<string>("black");
   const [quantity, setQuantity] = useState<number>(1);
   const params = useParams<{ id: string }>();
   const dispatch = useAppDispatch();
 
   // defining HOC instances
-  const SelectInputUpgrade = WithSelectInputWrapper(StandardSelectInput);
+  // const SelectInputUpgrade = WithSelectInputWrapper(StandardSelectInput);
   const QuantityInputUpgrade = WithNumberInputWrapper(QuantityInput);
 
   useEffect(() => {
