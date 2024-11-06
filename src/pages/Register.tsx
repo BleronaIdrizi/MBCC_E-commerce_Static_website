@@ -3,6 +3,7 @@ import { Button } from "../components";
 import { checkRegisterFormData } from "../utils/checkRegisterFormData";
 import customFetch from "../axios/custom";
 import toast from "react-hot-toast";
+import { handleSendMail } from "../utils/sendMail";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -11,7 +12,7 @@ const Register = () => {
     e.preventDefault();
     // Get form data
     const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData);
+    const data: any = Object.fromEntries(formData);
     // Check if form data is valid
     if (!checkRegisterFormData(data)) return;
 
@@ -28,6 +29,7 @@ const Register = () => {
     // Register user
     const response = await customFetch.post("/users", data);
     if (response.status === 201) {
+      handleSendMail(data?.name + " " + data?.lastname, data?.email)
       toast.success("User registered successfully");
       navigate("/login");
     } else {

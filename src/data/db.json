@@ -391,7 +391,132 @@
       "deliveryDays": 4
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "id": "ad61",
+      "data": {
+        "emailAddress": "blerona.idrizi@student.uni-pr.edu",
+        "firstName": "Blerona",
+        "lastName": "Idrizi",
+        "company": "solution25",
+        "address": "test address",
+        "apartment": "TEST",
+        "city": "Skenderaj",
+        "country": "Kosovo",
+        "region": "Skenderaj",
+        "postalCode": "12312",
+        "phone": "049049049",
+        "paymentType": "on",
+        "cardNumber": "32rm3fkm3[f4",
+        "nameOnCard": "BLERONA IDRIZI",
+        "expirationDate": "11/22",
+        "cvc": "234"
+      },
+      "products": [
+        {
+          "id": "1xsblack",
+          "image": "product-The-Great-Gatsby.jpg",
+          "title": "The Great Gatsby",
+          "category": "fiction-books",
+          "price": 1500,
+          "quantity": 1,
+          "size": "xs",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10,
+          "shortDescription": "A classic novel by F. Scott Fitzgerald.",
+          "productDetails": "Published in 1925, The Great Gatsby explores themes of decadence, idealism, resistance to change, social upheaval, and excess.",
+          "deliveryDetails": "Standard shipping available. Express shipping for additional cost.",
+          "deliveryDays": 3
+        },
+        {
+          "id": "3xsblack",
+          "image": "product-The-Very-Hungry-Caterpillar.jpeg",
+          "title": "The Very Hungry Caterpillar",
+          "category": "children-books",
+          "price": 500,
+          "quantity": 1,
+          "size": "xs",
+          "color": "black",
+          "popularity": 5,
+          "stock": 15,
+          "shortDescription": "A classic children's book by Eric Carle.",
+          "productDetails": "A beloved story of a caterpillar's transformation into a butterfly, full of colorful illustrations.",
+          "deliveryDetails": "Delivery available in 3-5 business days.",
+          "deliveryDays": 4
+        }
+      ],
+      "subtotal": 2000,
+      "user": {
+        "email": "blerona.idrizi@student.uni-pr.edu",
+        "id": "0873"
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-10-28T19:52:24.416Z"
+    },
+    {
+      "id": "a87f",
+      "data": {
+        "emailAddress": "2424@test.com",
+        "firstName": "24234",
+        "lastName": "234",
+        "company": "4234",
+        "address": "2342",
+        "apartment": "2344",
+        "city": "234324",
+        "country": "Kosovo",
+        "region": "234",
+        "postalCode": "234",
+        "phone": "4324",
+        "paymentType": "on",
+        "cardNumber": "2343242343423",
+        "nameOnCard": "4234234",
+        "expirationDate": "324243",
+        "cvc": "23434"
+      },
+      "products": [
+        {
+          "id": "1xsblack",
+          "image": "product-The-Great-Gatsby.jpg",
+          "title": "The Great Gatsby",
+          "category": "fiction-books",
+          "price": 1500,
+          "quantity": 3,
+          "size": "xs",
+          "color": "black",
+          "popularity": 5,
+          "stock": 10,
+          "shortDescription": "A classic novel by F. Scott Fitzgerald.",
+          "productDetails": "Published in 1925, The Great Gatsby explores themes of decadence, idealism, resistance to change, social upheaval, and excess.",
+          "deliveryDetails": "Standard shipping available. Express shipping for additional cost.",
+          "deliveryDays": 3
+        },
+        {
+          "id": "3xsblack",
+          "image": "product-The-Very-Hungry-Caterpillar.jpeg",
+          "title": "The Very Hungry Caterpillar",
+          "category": "children-books",
+          "price": 500,
+          "quantity": 1,
+          "size": "xs",
+          "color": "black",
+          "popularity": 5,
+          "stock": 15,
+          "shortDescription": "A classic children's book by Eric Carle.",
+          "productDetails": "A beloved story of a caterpillar's transformation into a butterfly, full of colorful illustrations.",
+          "deliveryDetails": "Delivery available in 3-5 business days.",
+          "deliveryDays": 4
+        }
+      ],
+      "subtotal": 5000,
+      "user": {
+        "email": "blerona.idrizi@student.uni-pr.edu",
+        "id": "0873"
+      },
+      "orderStatus": "Processing",
+      "orderDate": "2024-10-28T21:22:08.691Z"
+    }
+  ],
   "users": [
     {
       "id": "0873",
@@ -400,6 +525,14 @@
       "email": "blerona.idrizi@student.uni-pr.edu",
       "password": "12345678",
       "confirmPassword": "12345678"
+    },
+    {
+      "id": "a3d9",
+      "name": "Blerona",
+      "lastname": "Idrizi",
+      "email": "bleronaaidrizi@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234"
     }
   ]
 }

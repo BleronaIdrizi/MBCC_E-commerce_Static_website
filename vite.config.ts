@@ -11,6 +11,10 @@ export default defineConfig({
         {
           src: 'src/assets/*', // Burimi i skedarëve që do të kopjohen
           dest: 'src/assets'   // Destinacioni në dosjen 'dist'
+        },
+        {
+          src: 'src/data/*', // Burimi i skedarëve që do të kopjohen
+          dest: 'src/data'   // Destinacioni në dosjen 'dist'
         }
       ]
     })
